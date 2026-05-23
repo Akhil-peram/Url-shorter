@@ -1,0 +1,10 @@
+[project]
+name = "url-shorter"
+version = "0.1.0"
+description = "A simple and elegant URL shortener"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["fastapi", "uvicorn[standard]", "jinja2", "aiosqlite"]
+
+[project.scripts]
+url-shorter = "main:run"
